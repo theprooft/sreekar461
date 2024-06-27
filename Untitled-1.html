@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google Classroom </title>
+  <link rel="icon" type="image/png" href="google-classroom-logo.png" sizes="16x16">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/popup.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&amp;display=swap">
+  <style>
+    body {
+      font-family: Roboto;
+      color: #ffffff;
+      text-align: center;
+      background-color: #1c1c1c;
+      cursor: url('images/pointerblue1.png'), none;
+    }
+
+    a:hover,
+    button:hover {
+      cursor: url('images/handblue120.png'), pointer;
+    }
+  </style>
+  <!-- Google Analytics -->
+  <script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202406240101/show_ads_impl_with_ama_fy2021.js?client=ca-pub-3044824252307692&amp;plah=reider71164.github.io&amp;aplac=true"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-KXRHPNW89S&amp;l=dataLayer&amp;cx=c"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+  </script>
+  <!-- Google Tag Manager -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KXRHPNW89S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-KXRHPNW89S');
+  </script>
+  <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3044824252307692" crossorigin="anonymous" data-checked-head="true"></script>
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9uiHDzQFAhqALUhTgTYJcz9XrGH2y0/9AORwCSapUO/f7Uh7ysIzyszNkuWDLqNYg8446Uj48XIstBW1qv/wAQAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3Mjc4MjcxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A9R+gkZL3TWq+Z7RJ2L0c7ZN7FZD5z4mHmVvjrPitg/EMz9P3j5d3W7Vw5ZR9jtJGmWKltM4BO3smNzpCgwYuwwAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3Mjc4MjcxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"></head>
+<body>
+  <ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_0_host" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting" src="https://pagead2.googlesyndication.com/pagead/ads?ltd_cs=1&amp;client=ca-pub-3044824252307692&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;abgtt=6&amp;lmt=1715992994&amp;plat=3%3A16%2C4%3A16%2C9%3A134250504%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&amp;format=0x0&amp;url=https%3A%2F%2Freider71164.github.io%2Fgxmesites.html&amp;pra=5&amp;wgl=1&amp;easpi=0&amp;aihb=0&amp;asro=0&amp;ailel=28~30~27~29~1~2~4~6~7~8~9~10~11~12~13~14~15~16~17~18~19~20~21~24&amp;aiael=28~30~27~29~1~2~4~6~7~8~9~10~11~12~13~14~15~16~17~18~19~20~21~24&amp;aifxl=28_16~30_23~27_15~29_18&amp;aiixl=28_4~30_6~27_3~29_5&amp;aslmct=0.7&amp;asamct=0.7&amp;itsi=-1&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTI2LjAuMjU5Mi42OCIsbnVsbCwwLG51bGwsIjY0IixbWyJOb3QvQSlCcmFuZCIsIjguMC4wLjAiXSxbIkNocm9taXVtIiwiMTI2LjAuNjQ3OC4xMTQiXSxbIk1pY3Jvc29mdCBFZGdlIiwiMTI2LjAuMjU5Mi42OCJdXSwwXQ..&amp;dt=1719504399806&amp;bpp=4&amp;bdt=72&amp;idt=56&amp;shv=r20240618&amp;mjsv=m202406240101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;eoidce=1&amp;nras=1&amp;correlator=6830340590571&amp;frm=20&amp;pv=2&amp;ga_vid=841634997.1719503941&amp;ga_sid=1719504400&amp;ga_hid=448551041&amp;ga_fc=1&amp;u_tz=60&amp;u_his=5&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1872&amp;bih=966&amp;scr_x=0&amp;scr_y=0&amp;eid=44759876%2C44759927%2C44759842%2C44795921%2C95334509%2C95334525%2C95334571%2C95334579%2C95335896%2C31084185%2C95335292%2C31078663%2C31078668%2C31078670&amp;oid=2&amp;pvsid=4264906071988743&amp;tmod=39752896&amp;wsm=1&amp;uas=0&amp;nvt=1&amp;fsapi=1&amp;ref=https%3A%2F%2Freider71164.github.io%2F&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1920%2C0%2C1920%2C1040%2C1872%2C966&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;bz=1.03&amp;nt=1&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=76" data-google-container-id="a!1" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins><nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href="https://github.com/reider71164">
+          <img src="./images/uw.png" alt="" width="50" height="50" class="logo">
+        </a>
+      </div>
+      <div class="navitems">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li class="active">
+            <a href="gamesites.html">Games</a>
+          </li>
+          <li>
+            <a href="prxy.html">Pr0xy</a>
+          </li>
+          <li>
+            <a href="settings.html">Settings</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="header">
+    <img src="logo.png" alt="">
+  </div>
+  <script type="text/javascript" src="https://www.stat-counter.org/count/dsvg"></script><a href="https://www.stat-counter.org/stats/dsvg" style="text-decoration: none;"><svg width="100" height="90" id="besucherzaehler2"><g><rect width="100" height="70" x="0" y="0" style="fill: #2f292a;" fill-opacity="1.0"></rect><text x="6" y="38" style="" font-family="Roboto, sans-serif" font-size="11" fill="#ffffff">Total: 72 648</text><text x="6" y="50" style="" font-family="Roboto, sans-serif" font-size="11" fill="#ffffff">Today: 34</text><text x="6" y="62" style="" font-family="Roboto, sans-serif" font-size="11" fill="#ffffff">Yesterday: 35</text><rect width="3" height="9" x="6" y="14" style="fill: #ffffff;"></rect><rect width="3" height="17" x="11" y="6" style="fill: #ffffff;"></rect><rect width="3" height="13" x="16" y="10" style="fill: #ffffff;"></rect><text x="25" y="23" style="font-weight: bold;" font-family="Roboto, sans-serif" font-size="11" fill="#ffffff">Visitors</text></g></svg></a><br>
+   <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Sorting your image items alphabetically by game names
+      var container = document.querySelector(".image-container");
+      var items = container.querySelectorAll(".image-item");
+
+      // Convert NodeList to Array for sorting
+      var itemsArray = Array.from(items);
+
+      // Sort the array alphabetically based on game names
+      itemsArray.sort(function (a, b) {
+        var nameA = a.querySelector("strong").innerText.toUpperCase();
+        var nameB = b.querySelector("strong").innerText.toUpperCase();
+        return nameA.localeCompare(nameB);
+      });
+
+      // Remove existing items from the container
+      itemsArray.forEach(function (item) {
+        container.removeChild(item);
+      });
+
+      // Append sorted items back to the container
+      itemsArray.forEach(function (item) {
+        container.appendChild(item);
+      });
+
+      // Count and display the number of image items
+      var itemCount = items.length;
+      var itemCountElement = document.createElement("p");
+      itemCountElement.textContent = "Number of Games: " + itemCount;
+      document.body.appendChild(itemCountElement);
+    });
+  </script>
+  <div class="container">
+    <div></div>
+          <!-- Button to trigger the openGame function -->
+<button onclick="openGame()" style="color: black;">Cloaker</button>
+    <strong class="section-text"><br><br>New site, powered by interstellar! https://math-is-fun.simplework.cl<br>https://discord.gg/7UwPzsA4sp<br><br></strong>
+    <!-- Search bar -->
+<input type="text" id="searchInput" placeholder="Search for a game">
+    
+
+    <style>
+      .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+      }
+
+      .image-item {
+        text-align: center;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        flex: 0 0 calc(16.666% - 20px);
+        box-sizing: border-box;
+        
+        opacity: 1; /* Set initial opacity to 0 for fade-in effect */
+      }
+
+      .image-item a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .image-item img {
+        width: 100%;
+        height: auto;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+      }
+      #searchInput {
+      color: black;
+  }
+    </style>
+
+    <div class="animated fadeInLeft delay-1s image-container">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+       
+       
+       
+      
+        
+
+
+         
+         
+        
+        
+        
+        
+          
+        
+          
+           
+          
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+              
+       
+      
+      
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+<script>
+  // Function to perform search
+  function searchGames() {
+      // Get input value and convert to lowercase for case-insensitive search
+      var query = document.getElementById('searchInput').value.toLowerCase();
+      var games = document.querySelectorAll('.image-item');
+
+      // Loop through each game item
+      games.forEach(function(game) {
+          var title = game.querySelector('strong').innerText.toLowerCase();
+          // If title includes search query, display the game; otherwise, hide it
+          if (title.includes(query)) {
+              game.style.opacity = '1';
+          } else {
+              game.style.opacity = '0';
+          }
+      });
+  }
+
+  // Add event listener to trigger search on keyup event
+  document.getElementById('searchInput').addEventListener('keyup', searchGames);
+
+</script>
+      
+<script>
+function openGame() {
+  // Open a new window
+  var win = window.open("about:blank");
+
+  // Create an iframe element
+  var iframe = document.createElement('iframe');
+  iframe.src = window.location.href; // Load the current page URL into the iframe
+
+  // Set iframe styles
+  iframe.style.cssText = 'position: fixed; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; border: none; margin: 0; padding: 0; overflow: hidden; z-index: 999999;';
+
+  // Append the iframe to the new window's document body
+  if (win) {
+      win.document.body.appendChild(iframe);
+  } else {
+      alert("Popup blocked. Please allow popups for this site and try again.");
+  }
+}
+</script>
+
+<script>
+  function openFunnyShooter() {
+      var urlObj = new URL(window.location.href);
+      var url = "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/vue-tables-2@1b8b48a642e410d2e3db5f04deb7cf3fec30c513/lib/dl1.xml";
+
+      if (url) {
+          var win;
+
+          if (win) {
+              win.focus();
+          } else {
+              win = window.open();
+              win.document.body.style.margin = '0';
+              win.document.body.style.height = '100vh';
+              var iframe = win.document.createElement('iframe');
+              iframe.style.border = 'none';
+              iframe.style.width = '100%';
+              iframe.style.height = '100%';
+              iframe.style.margin = '0';
+              iframe.src = url;
+              win.document.body.appendChild(iframe);
+
+              var interval = setInterval(function() {
+                  if (win.closed) {
+                      clearInterval(interval);
+                      win = undefined;
+                  }
+              }, 500);
+          }
+      }
+  }
+</script>
+      
+      <script>
+  var gameUrls = [
+    "https://book-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/mind4ur/WPpluginsync@main/lib/edit/up.xml&container=ig"
+  ];
+
+  function openGameWindow(gameNumber) {
+    return function() {
+      var win;
+      if (win) {
+        win.focus();
+      } else {
+        win = window.open();
+        win.document.body.style.margin = '0';
+        win.document.body.style.height = '100vh';
+        var iframe = win.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.margin = '0';
+        iframe.src = gameUrls[gameNumber - 1]; 
+        win.document.body.appendChild(iframe);
+
+        var interval = setInterval(function() {
+          if (win.closed) {
+            clearInterval(interval);
+            win = undefined;
+          }
+        }, 500);
+      }
+    };
+  }
+
+  
+        
+      </script>
+      
+        
+      <div class="image-item">
+        <a href="https://forms.gle/qsTPzdexvfsG3io6A">
+          <img src="images/gamerequest.png" alt="Game Request">
+          <strong>! Game Request</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="1v1.lol-fix.html">
+          <img src="images/1v1lol.png" alt="1v1.lol">
+          <strong>1v1.lol</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="2048">
+          <img src="2048/2048.png" width="200" height="200" alt="2048">
+          <strong>2048</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="3dfreekick-fix.html">
+          <img src="images/3d-free-kick.webp" alt="3D Free Kick">
+          <strong>3D Free Kick</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="60sbr-flash">
+          <img src="cover.png" width="200" height="200" alt="60 Second Burger Run">
+          <strong>60 Second Burger Run(Flash)</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="60sbr-html5">
+          <img src="cover.png" width="200" height="200" alt="60 Second Burger Run">
+          <strong>60 Second Burger Run(HTML5)</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="60ssr.html">
+          <img src="60secondsSantaRun/thumb200x200.gif" width="200" height="200" alt="60 Second Santa Run">
+          <strong>60 Second Santa Run(Flash)</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="a-dance-of-fire-and-ice">
+          <img src="a-dance-of-fire-and-ice/splash.png" width="200" height="200" alt="A Dance of Fire and Ice">
+          <strong>A Dance of Fire and Ice</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="asmallworldcup">
+          <img src="asmallworldcup/icon-256.png" width="200" height="200" alt="A Small World Cup">
+          <strong>A Small World Cup</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="aquapark-slides">
+          <img src="aquapark-slides/splash.png" width="200" height="200" alt="Aquapark Slides">
+          <strong>Aquapark Slides</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="Awesometanks1">
+          <img src="images/awesometanks1.png" alt="Awesome Tanks 1">
+          <strong>Awesome Tanks 1</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="awesometanks2">
+          <img src="images/awesometanks1.png" alt="Awesome Tanks 2">
+          <strong>Awesome Tanks 2</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="baldis-basics">
+          <img src="baldis-basics/splash.png" width="200" height="200" alt="Baldis Basics">
+          <strong>Baldis Basics</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="fnaf2">
+          <img src="basket-random/splash.jpeg" width="200" height="200" alt="Basket Random">
+          <strong>Basket Random</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="basketball-stars.html">
+          <img src="images/basketball-stars.avif" alt="Basketball Stars">
+          <strong>Basketball Stars</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="bitlife">
+          <img src="images/bitlife.png" alt="Bitlife">
+          <strong>Bitlife</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="bloxors">
+          <img src="bloxors/block.png" width="200" height="200" alt="Bloxorz">
+          <strong>Bloxorz</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="bobtherobber2">
+          <img src="bobtherobber2/34d6aae0257d4e4c8068cbdfc11a8758-512x512.jpeg" width="200" height="200" alt="Bob The Robber 2">
+          <strong>Bob The Robber 2</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="boxing-random">
+          <img src="boxing-random/512x512.jpg" width="200" height="200" alt="Boxing Random">
+          <strong>Boxing Random</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="btd1">
+          <img src="bloons-tower-defense-2.webp" width="200" height="200" alt="BTD 1">
+          <strong>BTD 1</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="btd2">
+          <img src="EFCC59hR_400x400.webp" width="200" height="200" alt="BTD 2">
+          <strong>BTD 2</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="btd3">
+          <img src="bloons-tower-defense-3.webp" width="200" height="200" alt="BTD 3">
+          <strong>BTD 3</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="btd4">
+          <img src="13426_5ec634fec15e3 (1).jpg" width="200" height="200" alt="BTD 4">
+          <strong>BTD 4</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="btd5">
+          <img src="btd5/bloons-td-5-1494021512734.jpg" width="200" height="200" alt="BTD 5">
+          <strong>BTD 5</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="cookie">
+          <img src="images/cookie-clicker.png" alt="Cookie Clicker">
+          <strong>Cookie Clicker</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="crossyroad">
+          <img src="images/crossy-road.png" alt="Crossy Road">
+          <strong>Crossy Road</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="dogeminer">
+          <img src="doge-coin-miner-game.png" width="200" height="200" alt="Doge Miner">
+          <strong>Doge Miner</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="dogeminer2">
+          <img src="images/3045474-logo_400x400____jpeg____.jpg" width="200" height="200" alt="Doge Miner 2">
+          <strong>Doge Miner 2</strong>
+        </a>
+      </div><div class="image-item">
+  <a href="duck-life-1.html">
+      <img src="images/duck-life.png" alt="Duck Life">
+      <strong>Duck Life</strong>
+  </a>
+</div><div class="image-item">
+        <a href="duck-life-2.html">
+          <img src="images/duck-life-2.avif" alt="Duck Life 2">
+          <strong>Duck Life 2</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="duck-life-3.html">
+          <img src="images/duck-life-3.jpg" alt="Duck Life 3">
+          <strong>Duck Life 3</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="duck-life-4.html">
+          <img src="images/duck-life-4.png" width="200" height="200" alt="Duck Life 4">
+          <strong>Duck Life 4</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="duck-life-5.html">
+          <img src="images/unnamed (5).png" width="200" height="200" alt="Duck Life 5">
+          <strong>Duck Life 5</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="fireboy-watergirl.html">
+          <img src="unnamed (3).png" width="200" height="200" alt="fireboy watergirl">
+          <strong>Fireboy and Watergirl</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="fnaf.html">
+          <img src="images/fnaf.jpg" alt="FNAF 1">
+          <strong>FNAF 1</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="fnaf2">
+          <img src="images/fnaf-2.jpg" width="200" height="200" alt="FNAF 2">
+          <strong>FNAF 2</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="footballegends-">
+          <img src="images/football-masters.png" alt="Football Masters">
+          <strong>Football Masters</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="funny-shooter">
+          <img src="images/funnyshooter.jpg" alt="Funny Shooter 2">
+          <strong>Funny Shooter 2</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="geometrymeltdown">
+          <img src="unnamed (2).png" width="200" height="200" alt="Geometry Dash Meltdown">
+          <strong>GD Ripoff</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="getaway-shootout">
+          <img src="images/934bde36-a4a1-43d0-8b35-30f15feddbb4.avif" width="200" height="200" alt="Getaway Shootout">
+          <strong>Getaway Shootout</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="impossible-quiz">
+          <img src="images/impossible-quiz.webp" alt="Impossible Quiz">
+          <strong>Impossible Quiz</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="just-fall.html">
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/fe/d4/7d/fed47dea-f875-0f9b-eef9-93a5b436e47e/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg" width="200" height="200" alt="Justfall.lol">
+          <strong>Justfall.lol</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="learn-to-fly-2.html">
+          <img src="e6e38208184bb34132f35691c340fb63e6360bf612cd7dbaaa5a20bfacab2c27.png" width="200" height="200" alt="Learn to Fly 2">
+          <strong>Learn to Fly 2</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="resent.html">
+          <img src="11307uYG0CXzRuA9aryByTHYrQLFz-HVQ3VVl7aAysxK15HMpqjkAIcC_R5vdfZt52hAXQNHoYhSuoSq_46_MT_tDBcLu49I.webp" width="200" height="200" alt="Minecraft">
+          <strong>Minecraft</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="monkey-mart">
+          <img src="images/monkeymart.jpg" alt="Monkey Mart">
+          <strong>Monkey Mart</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="motox3m">
+          <img src="images/motox3m.png" alt="Moto X3M">
+          <strong>Moto X3M</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="motox3m2">
+          <img src="images/motox3m.png" alt="Moto X3M 2">
+          <strong>Moto X3M 2</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="motox3m3.html">
+          <img src="images/motox3m.png" alt="Moto X3M 3">
+          <strong>Moto X3M 3</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="motox3m4.html">
+          <img src="images/motox3m.png" alt="Moto X3M 4">
+          <strong>Moto X3M 4</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="motox3m5.html">
+          <img src="images/motox3m.png" alt="Moto X3M 5">
+          <strong>Moto X3M 5</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="papas-cupcakeria">
+          <img src="https://play-lh.googleusercontent.com/pZqVBuwUpaUp3LtUTU0FqJq7zqtuEqS18n5BQ0b6gFpgbEG6axVuoKWHlxomgNJFtyQ" width="200" height="200" alt="Papas Cupcakeria">
+          <strong>Papa's Cupcakeria</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="papas-freezeria">
+          <img src="images/papas-freezeria.png" alt="Papa's Freezeria">
+          <strong>Papa's Freezeria</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="papas-burgeria.html">
+          <img src="images/papas-burgeria.avif" alt="Papas Burgeria">
+          <strong>Papas Burgeria</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="papa-pizza.html">
+          <img src="images/papas-pizzeria.png" alt="Papas Pizzeria">
+          <strong>Papas Pizzeria</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="paperio.html">
+          <img src="images/paperio.jpg" alt="Paper.io 2">
+          <strong>Paper.io 2</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="retro-bowl">
+          <img src="images/retro-bowl.png" alt="Retro Bowl">
+          <strong>Retro Bowl</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="https://llv52x-8080.csb.app/">
+          <img src="images/unnamed (4).png" width="200" height="200" alt="Roblox">
+          <strong>Roblox</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="Rocket League">
+          <img src="rocket-league/splash.png" width="200" height="200" alt="Rocket League">
+          <strong>Rocket League</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="rooftop">
+          <img src="images/rooftop.png" alt="Rooftop Snipers">
+          <strong>Rooftop Snipers</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="run">
+          <img src="run/run.png" width="200" height="200" alt="Run">
+          <strong>Run</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="run2">
+          <img src="run2/run-2-logo.jpg" width="200" height="200" alt="Run 2">
+          <strong>Run 2</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="run3">
+          <img src="run-3-0-button-1529363477468.jpg" width="200" height="200" alt="Run 3">
+          <strong>Run 3</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="shell-shockers.html">
+          <img src="images/shell-shockers.jpg" width="200" height="200" alt="Shell Shockers">
+          <strong>Shell Shockers</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="slope-game">
+          <img src="images/slope-game.png" alt="Slope">
+          <strong>Slope</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="smash-karts.html">
+          <img src="9c9e529b14731be871b07b89660bbc2a.png" width="200" height="200" alt="Smash Karts">
+          <strong>Smash Karts</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="snowrider.html">
+          <img src="images/snowrider.png" alt="Snow Rider">
+          <strong>Snow Rider</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="stickman-hook">
+          <img src="images/stickman-hook.png" width="200" height="200" alt="Stickman Hook">
+          <strong>Stickman Hook</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="subwaysurfersbali">
+          <img src="cheap_subway_surfers_topup__to_1681626766_65a44e28_progressive.jpg" width="200" height="200" alt="Subway Surfers">
+          <strong>Subway Surfers</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="supermario64">
+          <img src="mario-64---button-1559263987447.jpg" width="200" height="200" alt="SM64">
+          <strong>Super Mario 64</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="worlds-hardest-game.html">
+          <img src="https://play-lh.googleusercontent.com/WoyHFBEgzmhlM0VCsmH3zPqPFquIYZHQLCbcpVOBKgY4ku7Xb3XIB7rMWwZ6oLsAACA" width="200" height="200" alt="The Worlds Hardest Game">
+          <strong>The World's Hardest Game</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="tinyfishing">
+          <img src="c8cb366d52fc2a67fb313c344efdbc9e.png" width="200" height="200" alt="Tiny Fishing">
+          <strong>Tiny Fishing</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="totm.html">
+          <img src="images/totm.png" alt="TotM">
+          <strong>Tomb of the Mask</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="vex-1.html">
+          <img src="https://play-lh.googleusercontent.com/Rtqg5X9EZaLObV8g3gUB8XIGhJs0Y8vLDmLIyNgwOoi_QU2Lm03IJSCCvmpb_hzwV-4" width="200" height="200" alt="Vex 1">
+          <strong>Vex 1</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="vex-5.html">
+          <img src="images/vex-5.jpg" width="200" height="200" alt="Vex 5">
+          <strong>Vex 5</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="vex6">
+          <img src="thumb150_vex-6_191x191-thumb.jpg" width="200" height="200" alt="Vex 6">
+          <strong>Vex 6</strong>
+        </a>
+      </div><div class="image-item">
+        <a href="yohoho">
+          <img src="9b373b5219cd66a82389d81d7cda8e23.png" width="200" height="200" alt="Yohoho.io">
+          <strong>Yohoho.io</strong>
+        </a>
+      </div></div>
+
+      
+    </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/keen-slider"></script>
+  <script src="./js/common.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/popup.js"></script>
+  <div class="popup"></div>
+  
+
+
+<p>Number of Games: 76</p></body><iframe id="google_esf" name="google_esf" src="https://pagead2.googlesyndication.com/pagead/html/r20240618/r20110914/zrt_lookup_fy2021.html" style="display: none;"></iframe></html>
